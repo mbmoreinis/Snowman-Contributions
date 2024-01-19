@@ -28,3 +28,6 @@ function checkBackround() {
 //    background-size:cover;
 //    background-color:#C6D1D3;
 // }
+
+@ var parts = ["abdomen","thorax","head","left","right","nose"];
++ ,"blank"
