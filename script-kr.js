@@ -21,8 +21,8 @@ function checkBackround() {
 //   left:0;
 //   top:0;
 //   position:absolute;
-//   width:600px;
-//   height:608px;
+//   width:900px;
+//   height:700px;
 //    background-image: url("youlose.jpg");
 //    background-repeat: no-repeat;
 //    background-size:cover;
@@ -30,4 +30,6 @@ function checkBackround() {
 // }
 
 @ var parts = ["abdomen","thorax","head","left","right","nose"];
+-,"lose"
 + ,"blank"
+
