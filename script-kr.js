@@ -15,3 +15,16 @@ function checkBackround() {
   + youLose();
 + }
 }
+
+/* add to css */
+// #endScreen {
+//   left:0;
+//   top:0;
+//   position:absolute;
+//   width:600px;
+//   height:608px;
+//    background-image: url("youlose.jpg");
+//    background-repeat: no-repeat;
+//    background-size:cover;
+//    background-color:#C6D1D3;
+// }
