@@ -1,5 +1,5 @@
-/* PATCH NAME: you lose 
-* PATCH EFFECT: fixes backround for you lose image 
+/* PATCH NAME: Fix You Lose
+* PATCH EFFECT: fixes background for you lose image 
 */
 
 + function youLose() {
