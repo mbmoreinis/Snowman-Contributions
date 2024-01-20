@@ -16,3 +16,34 @@
   + }
   + return underScores;
 }
+
+/* PATCH NAME: Check Background 
+ * PATCH EFFECT: Changes background color at 4 and 5 guesses
+ */
+
+/* New Function */  
++ function checkBackground() {
++   let snowman = document.getElementById("snowman");
++   console.log("checking");
++   if (nextPartId == 4) {
++     snowman.classList.add("yellowshift");
++   }
++   else if (nextPartId == 5) {
++      snowman.classList.add("redshift");	
++   }
++ }
+
+/* In function badGuess(){ */
+  @ let nextPart = parts[nextPartId];
+  + checkBackground();  
+
+  
+/* CSS for Check Background */
+/*coloring */
++ .yellowshift {
++     filter: hue-rotate(180deg);
++ }
++ 
++ .redshift {
++     filter: hue-rotate(120deg);
++ }  
